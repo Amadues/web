@@ -1,0 +1,108 @@
+body {
+    font-family: 微软雅黑;
+    font-size: 100%;
+    height:auto;
+}
+header {
+    vertical-align: top;
+    background:lightblue;
+    height: 75px;
+    width: 100%;
+    opacity: 0.75;
+    filter: alpha(opacity=75);
+    padding-top: 15px;
+    position: relative;
+    box-shadow: 0px 4px 4px pink;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.banner{
+    position: relative;
+    width: 100%;
+    /* overflow: hidden; */
+    min-width: 320px;
+}
+.parner span img {
+    width: 4.8%;
+    margin: 0px 0.7%;
+    min-width: 35px;
+}
+.swiper {
+    width: 100%;
+    /* overflow: hidden; */
+}
+.swiper img {
+    width: 100%;
+}
+.swiper_p {
+    margin-top: 50px;
+    text-indent: 2em;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    color: rgb(102, 102, 102);
+    font-family: STKaiti, 微软雅黑;
+    border-top: 1px solid rgb(232, 232, 232);
+    border-bottom: 1px solid rgb(232, 232, 232);
+}
+.con {
+    width: 33%;
+    border-radius: 5px;
+    /* height: 200px; */
+    background: white;
+    float: left;
+    margin: 2% 0;
+    overflow: hidden;
+    color: #959595;
+    text-decoration: none;
+    box-shadow: 2px 5px 2px lightblue;
+    position: relative;
+}
+@media only screen and (min-width: 100px) and (max-width: 640px) {
+	.con {
+    width: 50%;
+    border-radius: 5px;
+    /* height: 200px; */
+    background: white;
+    float: left;
+    margin: 2% 0;
+    overflow: hidden;
+    color: #959595;
+    text-decoration: none;
+    box-shadow: 2px 5px 2px lightblue;
+    position: relative;
+	}
+}
+.con img {
+    width: 100%;
+    float: left;
+}
+footer {
+    background: lightblue;
+    position: relative;
+    width: 100%;
+    margin-top: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-shadow: 3px 6px 8px white;
+    color: #666666;
+    overflow: hidden;
+}
+.footer_left {
+    vertical-align: top;
+    float: left;
+    width: 49%;
+    display: inline-block;
+}
+.footer_right {
+    border-left: 1px #ffffff solid;
+    float: right;
+}
+.nav {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    min-width: 320px;
+}
